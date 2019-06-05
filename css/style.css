@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar.fixed-top {
+}
+.navbar-nav.ml-auto {
+    color: rgba(89,171,2,1.00);
+    margin: 0px 50px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+#navbarSupportedContent1 .img-fluid {
+    margin-left: 50px;
+}
