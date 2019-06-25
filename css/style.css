@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+/*GG fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -72,15 +74,19 @@ p {
 	margin: 0;
 	font-size: 14px;
 	font-family:"Open Sans" ,sans-serif;
-    border-bottom: 3px solid transparent;
-	
+    border-bottom: 2px solid transparent;
+	border-radius: 0;
 }
-
+.topnav a i{
+	padding: 0 0 0 2px;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
 .topnav a.dropdown-item {
    padding: 1rem 0.75rem;
    font-size: 0.85rem;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-	
+
 }
 .topnav a.dropdown-item:hover {
   transition: all .4s ease;
@@ -92,7 +98,7 @@ p {
 
 
 .topnav a.active {
-  border-bottom: 3px solid #59ab02;
+  border-bottom: 2px solid #59ab02;
 	border-radius: 0;
 }
 
