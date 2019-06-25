@@ -267,8 +267,6 @@ padding: 1rem 1.5rem;
     margin-top: -2.5rem;
 }
 
-
-
 .img-hover-zoom {
 	position: relative;
   overflow: hidden;
@@ -282,6 +280,10 @@ padding: 1rem 1.5rem;
 .content-img{
 	position: absolute;
 } 
+.content-img.text-white p {
+	padding: 0 0.6rem; 
+}
+
 .img-hover-zoom:hover img {
   transform: scale(1.15);
 	opacity: 0.5;
