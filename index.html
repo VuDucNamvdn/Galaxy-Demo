@@ -3,56 +3,627 @@
   <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Untitled Document</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+	  <!--Font-->
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+	  	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	  <!--Animation-->
+	   <link href="css/animations.css" rel="stylesheet" type="text/css">
+		<!--SF ul li-->
+	<link href="css/superfish.css" rel="stylesheet" type="text/css">
+		<!--Custom stylesheet-->
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	
   </head>
-  <body style="padding-top: 70px">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light topnav"> <img src="img/logo_green.png" alt="Placeholder image" width="160" height="61" class="img-fluid nav">
-  	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
-  	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-  	    <ul class="navbar-nav ml-auto">
-  	      <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle active" href="index.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Home </a>
-  	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="index.html">Home</a> <a class="dropdown-item" href="#">Home2</a> <a class="dropdown-item" href="#">HomeShop</a></div>
-          </li>
-  	      <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-  	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-  	          <div class="dropdown-divider"></div>
-  	          <a class="dropdown-item" href="#">Something else here</a></div>
-          </li>
-  	      <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-  	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-  	          <div class="dropdown-divider"></div>
-  	          <a class="dropdown-item" href="#">Something else here</a></div>
-          </li>
-  	      <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-  	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-  	          <div class="dropdown-divider"></div>
-  	          <a class="dropdown-item" href="#">Something else here</a></div>
-          </li>
-  	      <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-  	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-  	          <div class="dropdown-divider"></div>
-  	          <a class="dropdown-item" href="#">Something else here</a></div>
-          </li>
-  	      <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown7" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-  	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-  	          <div class="dropdown-divider"></div>
-  	          <a class="dropdown-item" href="#">Something else here</a></div>
-          </li>
-        </ul>
+  <body>
+	  <!--HEADER-->
+<header id="main-header">
+  <div class="top-bar bg-light">
+    <div class="container">
+      <div class="row">
+  <div class="social">
+    <ul>
+      <li class="fb"><a href="#" title="Follow us on facebook" class="social-profile"><i class="fa fa-facebook"></i></a></li>
+      <!--
+			-->
+      <li class="tw"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-twitter"></i></a></li>
+      <!--
+			-->
+      <li class="linkedin"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-linkedin"></i></a></li>
+      <!--
+			-->
+      <li class="dribble"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-dribbble"></i></a></li>
+      <!--
+			-->
+      <li class="rss"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-rss"></i></a></li>
+      </ul>
+  </div>
+  <div class="ml-auto">
+    <ul id="top-header-menu2">
+      <li><a href="#"><i class="fa fa-phone"></i>&nbsp; Call Us : +880 111-111-111</a></li>
+      <li class="px-4"><a href="#"><i class="fa fa-sign-in"></i>&nbsp; Login</a></li>
+      <li><a href="#"><i class="fa fa-edit"></i>&nbsp;Registraion</a></li>
+      
+      </ul>
+  </div>
       </div>
+    </div>
+  </div>
+</header>
+<!--NAVBAR Stick to the top-->	  
+<section class="sticky" id="top-nav">
+  <nav class="navbar-expand-lg topnav navbar bg-white">
+    <div class="container px-0"><img src="img/logo_green.png" alt="Placeholder image" width="160" height="61" class="navbar-brand img-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="ml-auto sf-menu my-0">
+          <li class="nav-item dropdown"><a href="index.html" class="nav-link active" id="navbarDropdown1" aria-expanded="false" aria-haspopup="true"> Home <i class="fa fa-angle-down"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a href="index.html" class="dropdown-item">Home</a><!----><a class="dropdown-item" href="#">Home2</a> <a class="dropdown-item" href="#">HomeShop</a></div>
+          </li><!--
+		--><li class="nav-item dropdown"><a class="nav-link" href="#" id="navbarDropdown3" aria-haspopup="true" aria-expanded="false"> Features <i class="fa fa-angle-down"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a></div>
+            </li><!--
+		--><li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown4"  aria-haspopup="true" aria-expanded="false"> Shop <i class="fa fa-angle-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>                <a class="dropdown-item" href="#">Something else here</a></div>
+              </li><!--
+		--><li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown5" aria-haspopup="true" aria-expanded="false"> Pages <i class="fa fa-angle-down"></i></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>                  <a class="dropdown-item" href="#">Something else here</a></div>
+                </li><!--
+		--><li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown6"  aria-haspopup="true" aria-expanded="false"> Portfolio <i class="fa fa-angle-down"></i></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>                    <a class="dropdown-item" href="#">Something else here</a></div>
+                  </li>
+          <li class="nav-item dropdown"><a class="nav-link" href="#" id="navbarDropdown7" aria-haspopup="true" aria-expanded="false"> Blog <em class="fa fa-angle-down"></em></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>              <a class="dropdown-item" href="#">Something else here</a></div>
+          </li>
+          <li class="nav-item dropdown"><a href="#" class="nav-link pr-0" id="contact-nav" aria-expanded="false" aria-haspopup="true"> Contact <em class="fa fa-angle-down"></em></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Contact</a> <a class="dropdown-item" href="#">Contact Option</a>            <a class="dropdown-item" href="#">Contact Option 2</a></div>
+          </li>
+          
+        </ul>
+  </div>
+    </div>
   </nav>
-<!-- body code goes here -->
+</section>	  
+ <!--BANNER Carousel-->
+ <section class="pb-5" id="main-banner">
+   <div class="container-fluid px-0">
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+       </ol>
+       <div class="carousel-inner bg-info" role="listbox">
+         <div class="carousel-item active">
+           <div class="d-flex align-items-center justify-content-center" id="carousel1">
+			 <img src="img/1.jpg" class="img-fluid" alt="Placeholder image"> </div>
+         </div>
+         <div class="carousel-item">
+           <div class="d-flex align-items-center justify-content-center">
+             <img src="img/1.jpg" class="img-fluid" alt="Placeholder image"> </div>
+         </div>
+       </div>
+       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div>
+  </div>
+ </section>
+	  
+<!--Main content-->
+ <section class="py-5 " id="main-content">
+<div class="container">
+    <div class="justify-content-around row">
+       <div class="col-md-4 my-3">
+         <div class="card text-center paper" >
+           <div class="icon align-self-center"> <i class="fa fa-rocket"></i> </div>
+           <div class="py-4 mx-1">
+             <h3 class="my-4">Responsive Design</h3>
+             <p class="my-4">Lorem Ipsum is simply dummy text of Lorem the printing and typesettings industry. </p>
+             <div class="py-2 d-flex justify-content-center">               
+				 <a class="" href="#">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a></div>
+</div>
+           <div class="border-bottom"></div>
+			 <div class="border-bottom"></div>
+         </div>
+	  </div>
+      <div class="col-md-4 my-3">
+         <div class="card text-center paper" >
+           <div class="icon align-self-center"> <i class="fa fa-check"></i></div>
+           <div class="py-4 mx-1">
+             <h3 class="my-4">Retina Ready</h3>
+             <p class="my-4">Lorem Ipsum is simply dummy text of Lorem the printing and typesettings industry. </p>
+             <div class="py-2 d-flex justify-content-center"> <a class="" href="#">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a></div>
+           </div>
+           
+           <div class="border-bottom"></div>
+           <div class="border-bottom"></div>
+        </div>
+      </div>
+       <div class="col-md-4 my-3">
+         <div class="card text-center paper" >
+           <div class="icon align-self-center"> <i class="fa fa-tags"></i></div>
+           <div class="py-4 mx-1">
+             <h3 class="my-4">Premium Design</h3>
+             <p class="my-4">Lorem Ipsum is simply dummy text of Lorem the printing and typesettings industry. </p>
+             <div class="py-2 d-flex justify-content-center"> <a class="" href="#">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a></div>
+           </div>
+           
+           <div class="border-bottom"></div>
+           <div class="border-bottom"></div>
+         </div>
+       </div>
+    </div>
+   </div>
+ </section>
+<!--App-->
+  <section class="my-4" id="app">
+	  <div class="overlay">
+        <div class="container">
+          <div class="row pb-5">
+            <div class="col-lg-6 text-center animatedParent">
+              <img src="img/iphone5c.png" alt="phone" class="img-fluid animated fadeInLeft"> </div>
+            <div class="col-lg-6 my-4 animatedParent">
+              <div class="p-4 text-white app animated fadeInRight go">
+                <h2 class="my-2">Gallaxy App Services</h2>
+                <h4 class="my-3">We provide all kinds of iPhone application design and development services.</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.Vivamus diam diam, fermentum sed dapibus eget, egestas sed eros. Lorem fermentum ipsum dolor sit amet.Lorem fermentum diam diam. </p>
+				  <div class="my-4 p-2"></div>
+				  <div class="learn-more my-2"><a href="#">Learn More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+	  </div>
+  </section>
+	  
+	  
+	  <!--Showcase-->
+ <section id="showcase" class="py-4 my-5">
+    <div class="container">
+<div class="row pb-4">
+  <div class="col">
+        <div class="col-12">
+            <div class="text-center animatedParent">
+              <h2 class="my-4 animated fadeIn">Creative Portfolio Showcasse</h2>
+              <h4 class="animated fadeInLeft">Gallaxy provides you to show your portfolio contents in beautiful layout.
+              <br>Make a cool and colorful showcase for your site... </h4>
+            </div>
+        </div>
+</div>
+    </div>
+<div class="animatedParent">
+  <div class="row p-3 text-center slow fadeInUpShort go animated">
+    <div class="col-xl-4 col-md-6 p-0 img-hover-zoom">
+      <img src="img/01.jpg" alt="photo" class="img-fluid">
+      <div class="content-img text-white">	  
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="info-bar justify-content-around">
+          <div class="container">
+            <h3>Creative <span>Zoe</span></h3>
+            <div class="info-icons">
+              <i class="fa fa-heart px-2"></i>&nbsp;
+              <i class="fa fa-paperclip px-2"></i>&nbsp;
+              <i class="fa fa-share px-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-xl-4 col-md-6 p-0 img-hover-zoom"><img src="img/02.jpg" alt="photo" class="img-fluid">
+      <div class="content-img text-white">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="info-bar justify-content-around">
+          <div class="container">
+            <h3> Marchant <span>Mogul</span><br>
+              </h3>
+            <div class="info-icons"> <i class="fa fa-heart px-2"></i>&nbsp; <i class="fa fa-paperclip px-2"></i>&nbsp; <i class="fa fa-share px-2"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-xl-4 col-md-6 p-0 img-hover-zoom"><img src="img/03.jpg" alt="photo" class="img-fluid">
+      <div class="content-img text-white">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="info-bar justify-content-around">
+          <div class="container">
+            <h3> Pedaling <span>Tarven</span></h3>
+            <div class="info-icons"> <i class="fa fa-heart px-2"></i>&nbsp; <i class="fa fa-paperclip px-2"></i>&nbsp; <i class="fa fa-share px-2"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-xl-4 col-md-6 p-0 img-hover-zoom"><img src="img/04.jpg" alt="photo" class="img-fluid">
+      <div class="content-img text-white">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="info-bar justify-content-around">
+          <div class="container">
+            <h3>Create<span>Smart</span></h3>
+            <div class="info-icons"> <i class="fa fa-heart px-2"></i>&nbsp; <i class="fa fa-paperclip px-2"></i>&nbsp; <i class="fa fa-share px-2"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-xl-4 col-md-6 p-0 img-hover-zoom"><img src="img/05.jpg" alt="photo" class="img-fluid">
+      <div class="content-img text-white">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="info-bar justify-content-around">
+          <div class="container">
+            <h3>Back to<span>Zen</span></h3>
+            <div class="info-icons"> <i class="fa fa-heart px-2"></i>&nbsp; <i class="fa fa-paperclip px-2"></i>&nbsp; <i class="fa fa-share px-2"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-xl-4 col-md-6 p-0 img-hover-zoom"><img src="img/06.jpg" alt="photo" class="img-fluid">
+      <div class="content-img text-white">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="info-bar justify-content-around">
+          <div class="container">
+            <h3>Dynamic<span>Win</span></h3>
+            <div class="info-icons"> <i class="fa fa-heart px-2"></i>&nbsp; <i class="fa fa-paperclip px-2"></i>&nbsp; <i class="fa fa-share px-2"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+    </div>
+  </section> 
+	  <!--Services-->
+  <section class="my-4 text-white" id="services">
+    <div class="overlay">
+      <div class="container">
+        <div class="row pt-4 justify-content-center animatedParent">
+          <h2 class="m-2 animated fadeIn go">Other Services We Provide</h2>
+</div>
+        <div class="row justify-content-center animatedParent">
+<p class="font-weight-bold animated fadeInRight text-center">We have a strong team of web design, email marketing and corporate solution.Feel free to get a free quote!!! </p>
+        </div>
+<div class="row text-center mt-4 pb-4 animatedParent">
+        <div class="col-xl-4 animated fadeInLeftShort go slow">
+            <div class="px-2"><img src="img/web-design.png" class="img-fluid mb-4" alt="WebDesign">
+              <h3 class="font-weight-bold">Web Design</h3><p>Lorem Ipsum is simply dummy text of Lorem the printing and typesettings industry. </p>
+            </div>
+          </div>
+          <div class="col-xl-4 animated fadeInUpShort go slow">
+            <div class="px-2"><img src="img/email-marketing.png" class="img-fluid mb-4" alt="Email">
+              <h3 class="font-weight-bold">Email Marketing</h3><p>Lorem Ipsum is simply dummy text of Lorem the printing and typesettings industry. </p>
+            </div>
+          </div>
+          <div class="col-xl-4 animated fadeInRightShort go slow">
+            <div class="px-2"><img src="img/corporate-solutions.png" class="img-fluid mb-4" alt="Corporate">
+              <h3 class="font-weight-bold">Corporate Solution</h3><p>Lorem Ipsum is simply dummy text of Lorem the printing and typesettings industry. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+	  <!--vote-->
+  <section class="py-4" id="vote">
+    <div class="container">
+<div class="row pt-4 justify-content-center animatedParent">
+      <h2 class="m-2 animated fadeIn">What Clients Say About Us</h2>
+</div>
+<div class="row justify-content-center animatedParent">
+<p class="font-weight-bold animated fadeInRight text-center">We have a lot of clients over the world. Checout their feedback and comments about us.</p>
+</div>
+<div class="row pt-5 justify-content-center animatedParent">
+  <div class="col client-cmt animated fadeInRightShort go slow">
+	  <p class="text-center bg-light p-4 mx-4 mb-0">
+		<i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam necessitatibus magni nulla tempore ad deserunt vero dolor? Minus aspernatur adipisci quam nam, animi eveniet quos ab, necessitatibus iusto, molestias eligendi! <i class="fa fa-quote-right"></i>  
+</p>
+	  <div class="diamond bg-light mr-auto ml-auto">
+	  </div>
+  </div>
+	
+</div>
+		<div class="row pt-2 pb-4 animatedParent">
+	  <div class="mr-auto ml-auto animated fadeInRightShort">
+			<div class="float-left">
+		    <img src="img/team-member-1.jpg" alt="Placeholder image" width="70" class="rounded-circle img-fluid"> </div>
+		  <div class="float-right info-clients mx-3">
+			<a href="#" class="name-clients font-weight-bolder pt-4 pb-2 d-block">Monica Sing</a>
+		    <p>FIFO Themes </p>
+			</div>
+			</div>
+	  </div>
+    </div>
+	  
+	  </section>
+	  <!--Somefacts-->
+  <section class="my-4 text-white" id="facts">
+    <div class="overlay">
+      <div class="container">
+        <div class="row pt-4 justify-content-center animatedParent">
+          <h2 class="m-2 animated fadeInLeft text-center">Some Random Facts</h2>
+        </div>
+        <div class="row justify-content-center animatedParent">
+          <p class="font-weight-bold animated fadeInRight text-center">Find what is going around us. You can see some real stats here! </p>
+        </div>
+        <div class="row text-center mt-4 pb-4 animatedParent justify-content-around">
+          <div class="row container-fluid">
+            <div class="col-xl-3 d-flex justify-content-center animated fadeIn fact go">
+              <div class="px-2 fact">
+                <div class="float-left bg-white border-round mr-3 my-3"><i class="fa fa-coffee" ></i></div>
+                <div class="float-right py-3"> 
+                  <h2 class="counter m-0" data-count="110">0</h2>
+                  <p>COFFEES</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 d-flex justify-content-center animated fadeIn fact go">
+              <div class="px-2 fact">
+                <div class="float-left bg-white border-round mr-3 my-3"><i class="fa fa-briefcase" ></i></div>
+                <div class="float-right py-3">
+                  <h2 class="counter m-0" data-count="299">0</h2>
+                  <p>PROJECTS</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 d-flex justify-content-center animated fadeIn fact go">
+              <div class="px-2 fact">
+                <div class="float-left bg-white border-round mr-3 my-3"><i class="fa fa-user" ></i></div>
+                <div class="float-right py-3">
+                  <h2 class="counter m-0" data-count="175">0</h2>
+                  <p>CLIENTS</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 d-flex justify-content-center animated fadeIn fact go">
+              <div class="px-2 fact">
+                <div class="float-left bg-white border-round mr-3 my-3"><i class="fa fa-gift" ></i></div>
+                <div class="float-right py-3">
+                  <h2 class="counter m-0" data-count="50">0</h2>
+                  <p>AWARDS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+	  <!--Posts-->
+  <section class="py-4" id="posts">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <h2 class="mb-3 text-center">Latest Posts</h2>
+      </div>
+      <div class="row justify-content-center">
+        <p class="font-weight-bold text-center">We regularly post updates on our blog. Feel free to join with our blog!</p>
+      </div>
+      <div class="row">
+        <div class="col-xl-3 p-2">
+          <div class="card m-0">
+<div class="thumbnail-hover-zoom"><img src="img/p1.jpg" class="img-fluid" alt="Placeholder image"></div>
+<div class="card-body">
+  <h4 class="card-title mb-2">Praesentium minima</h4>
+  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+</div>
+            <div class="bg-light row text-center m-0 meta-bar">
+                <div class="col-3 meta"><a href="#"><i class="fa fa-clock-o"></i></a></div>
+				<div class="col-3 meta"><a href="#"><i class="fa fa-comment-o"></i> 15</a></div>
+				<div class="col-3 meta"><a href="#"><i class="fa fa-heart"></i> 20</a> </div>
+				<div class="col-3 meta border-right-0"><a href="#">...</a></div>
+				
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 p-2">
+          <div class="card m-0">
+            <div class="thumbnail-hover-zoom"><img src="img/p2.jpg" class="img-fluid" alt="Placeholder image"></div>
+            <div class="card-body">
+              <h4 class="card-title mb-2">Quisquam maiores</h4>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="bg-light row text-center m-0 meta-bar">
+              <div class="col-3 meta"><a href="#"><i class="fa fa-clock-o"></i></a></div>
+              <div class="col-3 meta"><a href="#"><i class="fa fa-comment-o"></i> 15</a></div>
+              <div class="col-3 meta"><a href="#"><i class="fa fa-heart"> 20</i> </a></div>
+              <div class="col-3 meta border-right-0"><a href="#">...</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 p-2">
+          <div class="card m-0">
+            <div class="thumbnail-hover-zoom"><img src="img/p3.jpg" class="img-fluid" alt="Placeholder image"></div>
+            <div class="card-body">
+              <h4 class="card-title mb-2">Ipsam inventores</h4>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="bg-light row text-center m-0 meta-bar">
+              <div class="col-3 meta"><a href="#"><i class="fa fa-clock-o"></i></a></div>
+              <div class="col-3 meta"><a href="#"><i class="fa fa-comment-o"></i> 15</a></div>
+              <div class="col-3 meta"><a href="#"><i class="fa fa-heart"></i> 20</a> </div>
+              <div class="col-3 meta border-right-0"><a href="#">...</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 p-2">
+          <div class="card m-0">
+            <div class="thumbnail-hover-zoom"><img src="img/p4.jpg" class="img-fluid" alt="Placeholder image"></div>
+            <div class="card-body">
+              <h4 class="card-title mb-2">Labore consequuntur</h4>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="bg-light row text-center m-0 meta-bar">
+              <div class="col-3 meta"><a href="#"><i class="fa fa-clock-o"></i></a></div>
+              <div class="col-3 meta"><a href="#"><i class="fa fa-comment-o"></i> 15</a></div>
+              <div class="col-3 meta"><a href="#"><i class="fa fa-heart"></i> 20</a></div>
+              <div class="col-3 meta border-right-0"><a href="#">...</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+	  <!--Work with us-->
+  <section class="my-4" id="work-with-us">
+    <div class="overlay">
+      <div class="container">
+        <div class="row text-white py-3">
+          <div class="col-lg-9 animatedParent"><h3 class="mt-4 text-center animated slow fadeInLeftShort">Found a reason to work with us? Lets's start!</h3> </div>
+          <div class="col-lg-3 animatedParent pr-0 text-center">
+            <div class="buynow my-4 pt-3 animated slow fadeInRightShort"><a href="#">Buy Now</a></div>
+          </div>
+</div>
+      </div>
+    </div>
+  </section>
+	  <!--Clients-->
+  <section class="py-4" id="clients">
+    <div class="container">
+<div class="row justify-content-center text-center">
+      <h2 class="mb-3 text-center">Our Clients</h2>
+      </div>
+      <div class="row justify-content-center animatedParent">
+        <p class="font-weight-bold text-center fadeInRight animated">See some of our satisfied clients over the world. </p>
+      </div>
+      <div class="carousel slide bg-white animatedParent" id="carouselExampleIndicators1" style="background-color: grey" data-ride="carousel">
+        <div class="carousel-inner animated fadeIn slow">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <div class="col-sm-3"><img src="img/c1.png" class="img-fluid" alt="Placeholder image"></div>
+              <div class="col-sm-3"><img src="img/c2.png" class="img-fluid" alt="Placeholder image"></div>
+              <div class="col-sm-3"><img src="img/c3.png" class="img-fluid" alt="Placeholder image"></div>
+              <div class="col-sm-3"><img src="img/c4.png" class="img-fluid" alt="Placeholder image"></div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="col-sm-3"><img src="img/c4.png" class="img-fluid" alt="Placeholder image"></div>
+              <div class="col-sm-3"><img src="img/c3.png" class="img-fluid" alt="Placeholder image"></div>
+              <div class="col-sm-3"><img src="img/c2.png" class="img-fluid" alt="Placeholder image"></div>
+              <div class="col-sm-3"><img src="img/c1.png" class="img-fluid" alt="Placeholder image"></div>
+            </div>
+          </div>
+        </div>
+        <div class="controls-bottom animatedParent">
+          <div class="animated fadeInUpShort slow"><a href="#carouselExampleIndicators1" class="btn-floating" role="button" data-slide="prev"> <em class="fa fa-chevron-left" aria-hidden="true"></em> <span class="sr-only">Previous</span></a><a href="#carouselExampleIndicators1" class="btn-floating" role="button" data-slide="next"> <em class="fa fa-chevron-right" aria-hidden="true"></em> <span class="sr-only">Next</span></a></div>
+        </div>
+      </div>
+</div>
+</section>
+	  
+		<!--FOOTER-->
+  <footer id="main-footer" class="text-white">
+    <div id="footer-infor">
+      <div class="overlay pb-5">
+        <div class="container">
+		  <div class="row justify-content-around pt-5">
+		    <div class="col-lg-3">
+			  <p class="lead font-weight-bold mb-4">About</p>
+				<p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			  </div>
+		    <div class="col-lg-3">
+		      <p class="lead font-weight-bold mb-4">Twitter Stream</p>
+              <div class="row">
+                <div class="col-sm-1 text-right">
+                  <p><i class="fa fa-twitter"></i></p>
+				  </div>
+                <div class="col-sm-10">
+                  <p class="mb-5">  <a href="#">@Orbisius</a> We have already answered your questions. However if you need quick support you can either email or visit <a href="#">http://t.co/wVmY4EiEMX</a> <br><a href="#" class="font-weight-bold">1352 days ago</a></p>
 
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.2.1.min.js"></script>
+                </div>
+              </div>
+	        </div>
+		    <div class="col-lg-3">
+		      <p class="lead font-weight-bold mb-4">Contact Us</p>
+		      <div class="row">
+                <div class="col-sm-1">
+                  <p><i class="fa fa-map-marker"></i></p>
+                </div>
+				<div class="col-sm-3 pl-1">
+				  <p class="font-weight-bold"> Address:</p>
+				</div>
+                <div class="col-sm-7 px-0">
+				  <p>221 Baker Street
+					  <br>London
+					  <br>United Kingdom </p>
+				  </div>
+              </div>
+		      <div class="row">
+		        <div class="col-sm-1">
+		          <p><i class="fa fa-phone"></i></p>
+	            </div>
+		        <div class="px-1 col-sm-2">
+		          <p class="font-weight-bold"> Phone:</p>
+		        </div>
+		        <div class="col-sm-7 px-2">
+		          <p>+880 111-111-111 </p>
+		        </div>
+	          </div>
+		      <div class="row">
+		        <div class="col-sm-1">
+		          <p><em class="fa fa-envelope"></em></p>
+		        </div>
+		        <div class="col-sm-2 px-1">
+		          <p class="font-weight-bold">Email:</p>
+		        </div>
+		        <div class="col-sm-7 pl-2">
+		          <p class="m-0">email@demo.com</p>
+	            </div>
+	          </div>
+		    </div>
+		    <div class="col-lg-3">
+		      <p class="lead font-weight-bold mb-4">Subscribe</p>
+		      <p class="mb-5">Subscribe to our email newsletter to receive our news, updates and awesome free files. </p>
+              <div class="col p-0">
+                <div class="input-group mb-3 footer-round">
+                  <input type="text" class="form-control p-mail-footer" placeholder="mail@example.com" >
+                    <button class="btn px-4 btn-join-footer" type="button">Join</button>
+                </div>
+              </div>
+		    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-bar bg-dark">
+      <div class="container">
+<div class="row">
+	<p class="pt-2">&copy; Copyright 2018 by FIFOLAB. All Rights Reserved.  </p>       
+        <div class="social ml-auto">
+<ul>
+            <li class="fb"><a href="#" title="Follow us on facebook" class="social-profile"><i class="fa fa-facebook"></i></a></li>
+              <!--
+			-->
+              <li class="tw"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-twitter"></i></a></li>
+              <!--
+			-->
+              <li class="linkedin"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-linkedin"></i></a></li>
+              <!--
+			-->
+              <li class="dribble"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-dribbble"></i></a></li>
+              <!--
+			-->
+              <li class="rss"><a class="social-profile" href="#" title="Follow us on facebook"><i class="fa fa-rss"></i></a></li>
+            </ul>
+          </div>
+</div>
+      </div>
+    </div>
+  </footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
+  <script src="js/popper.min.js"></script> 
   <script src="js/bootstrap-4.3.1.js"></script>
+  <script src="js/jquery.js"></script>
+
+  <!-- Animated on scroll -->
+<script src="js/css3-animate-it.js"></script>
+<!--My Count js -->
+<script src="js/custom.js"></script>
   </body>
 </html>
